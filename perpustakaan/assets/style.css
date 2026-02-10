@@ -1,0 +1,380 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+  background: #3bb3d1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== CENTER ===== */
+.center {
+  width: 100%;
+  max-width: 380px;
+  padding: 20px;
+}
+
+/* ===== CARD ===== */
+.card {
+  background: rgb(60, 26, 211);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+/* ===== FORM ===== */
+form input, form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+form input:focus, form select:focus {
+  border-color: #4e37d1;
+}
+
+/* ===== BUTTON ===== */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* ===== LINK ===== */
+a {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+  background: #f2f5f9;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 950px;
+  margin: auto;
+}
+
+/* ===== CARD ===== */
+.dashboard-card {
+  background: #fff;
+  padding: 22px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.12);
+}
+
+/* ===== TITLE ===== */
+h2 {
+  margin-bottom: 10px;
+}
+
+/* ===== NAV ===== */
+.nav {
+  margin: 15px 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  text-decoration: none;
+  background: #007bff;
+  color: white;
+  padding: 9px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.nav a:hover {
+  background: #0056b3;
+}
+
+/* ===== TABLE ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background: #007bff;
+  color: white;
+}
+
+/* ===== BUTTON LINK (aksi) ===== */
+table a {
+  text-decoration: none;
+  background: #28a745;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+table a:hover {
+  background: #1e7e34;
+}
+
+/* ===== FORM ===== */
+form input, form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+form input:focus, form select:focus {
+  border-color: #007bff;
+}
+
+/* ===== BUTTON ===== */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* ===== LOGIN / REGISTER CARD ===== */
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 380px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 18px;
+}
+
+.card a {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* BODY */
+body {
+  background: #f2f5f9;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 950px;
+  margin: auto;
+}
+
+/* CARD */
+.dashboard-card {
+  background: white;
+  padding: 22px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.12);
+}
+
+/* TITLE */
+h2 {
+  margin-bottom: 12px;
+}
+
+/* NAV MENU */
+.nav {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  background: #007bff;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.nav a:hover {
+  background: #0056b3;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background: #007bff;
+  color: white;
+}
+
+/* ACTION LINK */
+table a {
+  text-decoration: none;
+  background: #28a745;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+table a:hover {
+  background: #1e7e34;
+}
+
+/* FORM */
+form input, form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+form input:focus, form select:focus {
+  border-color: #007bff;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* LOGIN / REGISTER */
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 380px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 18px;
+}
+
+.card a {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
